@@ -1,0 +1,36 @@
+{
+  "name": "react-nextjs",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "twbs/examples",
+  "license": "MIT",
+  "stackblitz": {
+    "startCommand": "npm start"
+  },
+  "scripts": {
+    "build": "next build",
+    "start": "next dev",
+    "lint": "next lint",
+    "fix": "next lint --fix",
+    "test": "npm run build"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.29",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.5",
+    "bootstrap": "^5.3.6",
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.1.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.30.0",
+    "eslint-config-next": "^15.3.3",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
+    "sass": "^1.89.1",
+    "typescript-eslint": "^8.35.1"
+  }
+}

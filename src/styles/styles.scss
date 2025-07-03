@@ -1,0 +1,23 @@
+$success: #7952b3;
+
+@import "bootstrap/scss/bootstrap.scss";
+
+body {
+  padding: 1.5rem;
+}
+
+// Subtle background on hover for user list cards
+.entry-hover {
+  transition: background-color 0.15s ease-in-out;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05); // light gray
+  }
+}
+
+.click-tooltip {
+  position: absolute;
+  transform: translate(-50%, -30%);
+  pointer-events: none;
+  z-index: 1050;
+}
