@@ -12,7 +12,9 @@
     "start": "next dev",
     "lint": "next lint",
     "fix": "next lint --fix",
-    "test": "npm run build"
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
   },
   "dependencies": {
     "@types/node": "^22.15.29",
@@ -26,11 +28,16 @@
     "typescript": "^5.8.3"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
     "eslint": "^9.30.0",
     "eslint-config-next": "^15.3.3",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.3.0",
+    "jsdom": "^26.1.0",
     "sass": "^1.89.1",
-    "typescript-eslint": "^8.35.1"
+    "typescript-eslint": "^8.35.1",
+    "vitest": "^3.2.4"
   }
 }
